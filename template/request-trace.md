@@ -28,9 +28,9 @@ expected urgencyLabel=intervento rapido
 ## Caso Invalido
 
 ```txt
-field=priority
-value=immediata
-expected error=400 fieldErrors.priority
+field=sourceChannel
+value=whatsapp
+expected error=400 fieldErrors.sourceChannel
 ```
 
 ## File Candidati

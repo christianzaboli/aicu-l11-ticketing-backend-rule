@@ -43,7 +43,7 @@ Input:
 ```json
 {
   "priority": "alta",
-  "sourceChannel": "fax"
+  "sourceChannel": "whatsapp"
 }
 ```
 

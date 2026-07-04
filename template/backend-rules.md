@@ -19,9 +19,14 @@
 | Priority | Source Channel | Urgency Label |
 | --- | --- | --- |
 | alta | telefono | intervento rapido |
+| alta | chat | prioritario |
 | alta | email | prioritario |
-| normale | chat | standard |
-| bassa | qualunque | monitorare |
+| normale | telefono | da gestire |
+| normale | chat | da gestire |
+| normale | email | standard |
+| bassa | telefono | monitorare |
+| bassa | chat | monitorare |
+| bassa | email | monitorare |
 
 ## Dati Decisi Dal Server
 

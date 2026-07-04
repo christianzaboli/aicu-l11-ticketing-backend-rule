@@ -4,8 +4,8 @@
 
 ```json
 {
-  "title": "",
-  "description": "",
+  "title": "Richiesta assistenza Wi-Fi",
+  "description": "Non riesco a connettermi alla rete aziendale",
   "priority": "alta",
   "sourceChannel": "telefono"
 }
@@ -66,7 +66,11 @@ Expected:
 
 | File | Perche' |
 | --- | --- |
-| | |
+| schema.prisma | modello Ticket con i nuovi campi |
+| route ticket create | endpoint POST /tickets |
+| validatore ticket | validazione priority e sourceChannel |
+| libreria mapping | computeUrgencyLabel(priority, sourceChannel) |
+| UI form ticket | aggiunta campi priority e sourceChannel |
 
 ## Confine Client/Server
 
